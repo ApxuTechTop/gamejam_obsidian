@@ -15,9 +15,9 @@
               "state": {
                 "file": "Сценарий.canvas",
                 "viewState": {
-                  "x": 375,
-                  "y": 360,
-                  "zoom": -0.23006343468937704
+                  "x": 642.1984207732911,
+                  "y": 540.8345527036673,
+                  "zoom": -0.230063434689377
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -223,10 +223,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "762dfb98fbba8810",
+  "active": "67209da24eee01c7",
   "lastOpenFiles": [
-    "Идея песочницы.md",
     "the stanley parable.md",
+    "Идея песочницы.md",
     "Сценарий.canvas",
     "Добро пожаловать.md",
     "Идея обби.md"
