@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"75144168daa12580","type":"text","text":"игрок выходит из лифта в пустой холл","x":-92,"y":0,"width":250,"height":80,"color":"1"},
 		{"id":"66658af7c08fe66a","type":"text","text":"Игрок появляется в едущем наверх лифте","x":-330,"y":-340,"width":250,"height":60,"color":"1"},
-		{"id":"32486aa100ac26f5","type":"text","text":"начальник из динамика просит пройти в кабинет N123","x":-330,"y":-200,"width":250,"height":80,"color":"1"},
+		{"id":"32486aa100ac26f5","type":"text","text":"голос из динамика просит пройти в кабинет N123","x":-330,"y":-200,"width":250,"height":80,"color":"1"},
 		{"id":"c63cda3e1c400ff8","type":"text","text":"сбоку в углу есть вытяжка\nк ней можно подняться поставив несколько столов друг на друга","x":-300,"y":240,"width":250,"height":132,"color":"5"},
 		{"id":"aa2cd13355ff3b9b","type":"text","text":"игрок проходит хол в коридор на перекресток","x":158,"y":180,"width":250,"height":60,"color":"1"},
 		{"id":"2ddff56295cb671e","type":"text","text":"голос из динамика просит идти влево и по прямой","x":158,"y":312,"width":250,"height":60,"color":"1"},
@@ -37,11 +37,23 @@
 		{"id":"cfd09c73414d2af6","x":815,"y":2000,"width":250,"height":85,"color":"3","type":"text","text":"игрок подходит к двери, камера поворачивается за ним"},
 		{"id":"c4a1eb6357cc294c","x":869,"y":2144,"width":250,"height":136,"color":"3","type":"text","text":"голос из динамика замечает что дверь закрыта, и просит нажать кнопку еще раз"},
 		{"id":"6db83aebe80fbc53","x":526,"y":2320,"width":250,"height":98,"color":"1","type":"text","text":"игрок нажимает кнопку еще раз и дверь открывается"},
-		{"id":"d4edc1afd6ca66c4","x":278,"y":2501,"width":250,"height":99,"color":"3","type":"text","text":"спустя пару секунд голос спрашивает:\nНу и? Чего стоим?"},
+		{"id":"d4edc1afd6ca66c4","x":278,"y":2501,"width":250,"height":99,"color":"2","type":"text","text":"спустя пару секунд голос спрашивает:\nНу и? Чего стоим?"},
 		{"id":"aadcbed2b53ba870","x":-45,"y":2224,"width":250,"height":277,"color":"2","type":"text","text":"если игрок многократно нажимает кнопку, дверь ломается и остается открытой, а голос злиться:\n\"И-ДИ-ОТ, вы допустили потерю дорогостоящего обмундирования, его стоимость будет вычтена из вашего жалованья"},
 		{"id":"ffe42f6c756eeca1","x":-45,"y":1940,"width":250,"height":120,"color":"2","type":"text","text":"спустя 5 секунд голос раздраженно спрашивает почему ты все еще не в следующей комнате"},
-		{"id":"5f3b30534b307a6a","x":744,"y":3200,"width":250,"height":180,"type":"text","text":"ОСНОВНАЯ КОНЦОВКА:\nнашальника говорит что ты не нужен, так как тебя заменяют нейросетями, и поэтому ты свободен идти на все четыре стороны"},
-		{"id":"99939d296d9feb4b","x":655,"y":2577,"width":250,"height":60,"color":"1","type":"text","text":"игрок проходит в следующую комнату"}
+		{"id":"99939d296d9feb4b","x":655,"y":2577,"width":250,"height":60,"color":"1","type":"text","text":"игрок проходит в следующую комнату"},
+		{"id":"1610a1fff5d915c6","x":655,"y":2720,"width":250,"height":60,"color":"1","type":"text","text":"игрок видит перед собой 2 двери"},
+		{"id":"403666b829126203","x":655,"y":2840,"width":250,"height":132,"color":"1","type":"text","text":"голос из динамиков указывает:\n\"Тут можете не задерживаться, проходите в следующую комнату\""},
+		{"id":"0c5b8b95d5641377","x":655,"y":3040,"width":250,"height":90,"color":"1","type":"text","text":"игрок подходит к двум дверям и не понимает в какую идти"},
+		{"id":"a960d44628c9a998","x":655,"y":3160,"width":250,"height":112,"color":"1","type":"text","text":"По камерам контроллер замечает две двери вместо ожидаемого одного прохода"},
+		{"id":"b101233ea61636b2","x":611,"y":3360,"width":339,"height":149,"color":"1","type":"text","text":"\"Странно...\", - недоумевает он. - \"По навиг... кхм кхм\" - слышен кашель и бубнешь.\nИ спустя пару мгновений - \"Так! Пройдите в левую дверь\""},
+		{"id":"5a1e802bae8130ac","x":533,"y":3594,"width":250,"height":60,"color":"1","type":"text","text":"игрок проходит в левую дверь"},
+		{"id":"9c750e4570b8edfb","x":834,"y":3592,"width":250,"height":62,"color":"3","type":"text","text":"игрок проходит в правую дверь"},
+		{"id":"cdcce0aeed78205c","x":700,"y":3800,"width":250,"height":60,"color":"1","type":"text","text":"обе двери ведут в одну и ту же комнату"},
+		{"id":"254c0239e96c37af","x":-770,"y":-242,"width":250,"height":60,"color":"6","type":"text","text":"но это голос контроллера"},
+		{"id":"46f52ac756ee63d1","x":-715,"y":-388,"width":250,"height":97,"color":"6","type":"text","text":"тут теперь не голос начальника, игрок не знает кому принадлежит голос"},
+		{"id":"f463adec84cd1987","x":1240,"y":3519,"width":250,"height":146,"color":"6","type":"text","text":"ЗАМЕТКА: тут желтый, так как это действие должно увеличить шкалу раздражительности у контроллера"},
+		{"id":"5f3b30534b307a6a","x":1540,"y":3920,"width":250,"height":180,"type":"text","text":"ОСНОВНАЯ КОНЦОВКА:\nнашальника говорит что ты не нужен, так как тебя заменяют нейросетями, и поэтому ты свободен идти на все четыре стороны"},
+		{"id":"05e3d9ace554dea7","x":1560,"y":3527,"width":250,"height":131,"color":"6","type":"text","text":"пока я не знаю что можно будет сделать с этой механикой, но потенциально будет влиять на реплики"}
 	],
 	"edges":[
 		{"id":"90263d16d56e3c67","fromNode":"75144168daa12580","fromSide":"bottom","toNode":"c63cda3e1c400ff8","toSide":"top"},
@@ -87,6 +99,19 @@
 		{"id":"377528e3a92a114d","fromNode":"c4a1eb6357cc294c","fromSide":"bottom","toNode":"6db83aebe80fbc53","toSide":"top"},
 		{"id":"3a3bacf25cb727c2","fromNode":"6db83aebe80fbc53","fromSide":"bottom","toNode":"d4edc1afd6ca66c4","toSide":"top"},
 		{"id":"975e9ea64f8fc77e","fromNode":"7bdb60bc7c13f52f","fromSide":"bottom","toNode":"aadcbed2b53ba870","toSide":"top"},
-		{"id":"18a11a5e566c742c","fromNode":"6db83aebe80fbc53","fromSide":"bottom","toNode":"99939d296d9feb4b","toSide":"top"}
+		{"id":"18a11a5e566c742c","fromNode":"6db83aebe80fbc53","fromSide":"bottom","toNode":"99939d296d9feb4b","toSide":"top"},
+		{"id":"ca8cb69ec751901c","fromNode":"99939d296d9feb4b","fromSide":"bottom","toNode":"1610a1fff5d915c6","toSide":"top"},
+		{"id":"bd884f81787ebafc","fromNode":"1610a1fff5d915c6","fromSide":"bottom","toNode":"403666b829126203","toSide":"top"},
+		{"id":"799c6e830bfa2cae","fromNode":"403666b829126203","fromSide":"bottom","toNode":"0c5b8b95d5641377","toSide":"top"},
+		{"id":"babab401f8fa9089","fromNode":"0c5b8b95d5641377","fromSide":"bottom","toNode":"a960d44628c9a998","toSide":"top"},
+		{"id":"c33f1fdd404b7df0","fromNode":"a960d44628c9a998","fromSide":"bottom","toNode":"b101233ea61636b2","toSide":"top"},
+		{"id":"3b46fee9013dfe01","fromNode":"b101233ea61636b2","fromSide":"bottom","toNode":"5a1e802bae8130ac","toSide":"top"},
+		{"id":"92eb8e734f097bd3","fromNode":"b101233ea61636b2","fromSide":"bottom","toNode":"9c750e4570b8edfb","toSide":"top"},
+		{"id":"8fa2e464ca11e0af","fromNode":"5a1e802bae8130ac","fromSide":"bottom","toNode":"cdcce0aeed78205c","toSide":"top"},
+		{"id":"f56e3019b30c47b7","fromNode":"9c750e4570b8edfb","fromSide":"bottom","toNode":"cdcce0aeed78205c","toSide":"top"},
+		{"id":"4cf9aabe863fcf66","fromNode":"46f52ac756ee63d1","fromSide":"right","toNode":"32486aa100ac26f5","toSide":"left"},
+		{"id":"d1f03d409b25ab2f","fromNode":"46f52ac756ee63d1","fromSide":"bottom","toNode":"254c0239e96c37af","toSide":"top"},
+		{"id":"79e2a7e1920bd44e","fromNode":"f463adec84cd1987","fromSide":"right","toNode":"05e3d9ace554dea7","toSide":"left"},
+		{"id":"43770fbe7fcb0373","fromNode":"f463adec84cd1987","fromSide":"left","toNode":"9c750e4570b8edfb","toSide":"right"}
 	]
 }
