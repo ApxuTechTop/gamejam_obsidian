@@ -13,16 +13,23 @@
 		{"id":"c8978fff560f4c0a","type":"text","text":"игрок подходит с ломом к люку вентиляции и вскрывает его","x":-380,"y":800,"width":250,"height":80},
 		{"id":"3065cdcec57ed18b","type":"text","text":"игрок поворачивает направо в темный коридор","x":100,"y":465,"width":250,"height":70},
 		{"id":"97dcf16d69f46be4","type":"text","text":"там он видит дверь в подсобку","x":100,"y":600,"width":250,"height":60},
-		{"id":"a2f771ea122569d1","type":"text","text":"игрок поворачивает налево и идет к лестнице","x":740,"y":490,"width":250,"height":60},
 		{"id":"61066dcbbfcadcb9","type":"text","text":"внутри он находит множество предметов, среди которых есть тяжелый лом","x":440,"y":813,"width":250,"height":80},
 		{"id":"b4a070c6c4453e9b","type":"text","text":"если игрок идет попадается под камеры с ломом, его атакуют камеры","x":-25,"y":800,"width":250,"height":106},
 		{"id":"54606ae5d7082342","type":"text","text":"лом","x":283,"y":823,"width":118,"height":60},
-		{"id":"763d3116fdb94f1c","type":"text","text":"ведро","x":388,"y":1000,"width":104,"height":60},
-		{"id":"5c66b9c27681d83c","type":"text","text":"по пути к лестнице, возле закрытой двери лежит карточка","x":1200,"y":530,"width":250,"height":100},
-		{"id":"8ddc788fdf3983f9","x":315,"y":1140,"width":250,"height":93,"type":"text","text":"можно будет набрать воды и вылить на начальника"},
-		{"id":"71514911c012eb6f","x":1615,"y":556,"width":250,"height":60,"type":"text","text":"она открывает доступ к серверной"},
-		{"id":"09f3963462df1415","x":1615,"y":720,"width":250,"height":60,"type":"text","text":"в серверной можно отключить камеры"},
-		{"id":"5d1482b6fc0ebc52","x":-92,"y":1060,"width":250,"height":101,"type":"text","text":"на ресепшене можно брать ручки/карандаши\nих можно кинуть в камеру и она сломается"}
+		{"id":"5d1482b6fc0ebc52","x":-92,"y":1060,"width":250,"height":101,"type":"text","text":"на ресепшене можно брать ручки/карандаши\nих можно кинуть в камеру и она сломается"},
+		{"id":"201b5c7a6e4860ed","x":-825,"y":475,"width":250,"height":60,"type":"text","text":"на парковке стоит грустная девочка"},
+		{"id":"fd2b226ccdcd752b","x":-840,"y":766,"width":250,"height":114,"type":"text","text":"если дать ей карандаши, она начнет рисовать и перестанет грустить"},
+		{"id":"a2f771ea122569d1","type":"text","text":"игрок поворачивает налево и идет к лестнице","x":690,"y":465,"width":250,"height":60},
+		{"id":"5c66b9c27681d83c","type":"text","text":"по пути к лестнице, возле закрытой двери лежит карточка","x":1020,"y":580,"width":250,"height":100},
+		{"id":"71514911c012eb6f","x":1340,"y":680,"width":250,"height":60,"type":"text","text":"она открывает доступ к серверной"},
+		{"id":"09f3963462df1415","x":1340,"y":1081,"width":250,"height":60,"type":"text","text":"в серверной можно отключить камеры"},
+		{"id":"763d3116fdb94f1c","type":"text","text":"ведро","x":940,"y":846,"width":104,"height":60},
+		{"id":"8ddc788fdf3983f9","x":765,"y":988,"width":250,"height":93,"type":"text","text":"можно будет набрать воды и вылить на начальника (КОНЕЦ)"},
+		{"id":"0eab2eb863326672","x":-686,"y":1157,"width":250,"height":83,"type":"text","text":"тут дальше концовка с люком, хз че, надо придумать"},
+		{"id":"3101861e03691986","x":-686,"y":1300,"width":250,"height":151,"type":"text","text":"может игрок ползет и попадает к начальнику, подслушивает его разговор об ужасных планах и конец?"},
+		{"id":"99e42699a97b88ec","x":-1040,"y":334,"width":250,"height":60,"type":"text","text":"тут надо еще что то придумать"},
+		{"id":"5f3b30534b307a6a","x":565,"y":1420,"width":250,"height":180,"type":"text","text":"ОСНОВНАЯ КОНЦОВКА:\nнашальника говорит что ты не нужен, так как тебя заменяют нейросетями, и поэтому ты свободен идти на все четыре стороны"},
+		{"id":"e1d8e7cde3017166","x":440,"y":1199,"width":250,"height":111,"type":"text","text":"тут может еще какое то ответвление надо придумать"}
 	],
 	"edges":[
 		{"id":"90263d16d56e3c67","fromNode":"75144168daa12580","fromSide":"bottom","toNode":"c63cda3e1c400ff8","toSide":"top"},
@@ -48,6 +55,15 @@
 		{"id":"ad8b18fb5d79ee64","fromNode":"5c66b9c27681d83c","fromSide":"right","toNode":"71514911c012eb6f","toSide":"left"},
 		{"id":"3e43714241d30f82","fromNode":"71514911c012eb6f","fromSide":"bottom","toNode":"09f3963462df1415","toSide":"top"},
 		{"id":"c99087e400a533c3","fromNode":"09f3963462df1415","fromSide":"bottom","toNode":"b4a070c6c4453e9b","toSide":"bottom"},
-		{"id":"03d2f6ac52538692","fromNode":"5d1482b6fc0ebc52","fromSide":"top","toNode":"b4a070c6c4453e9b","toSide":"bottom"}
+		{"id":"03d2f6ac52538692","fromNode":"5d1482b6fc0ebc52","fromSide":"top","toNode":"b4a070c6c4453e9b","toSide":"bottom"},
+		{"id":"19aee49ed9b43920","fromNode":"763d3116fdb94f1c","fromSide":"right","toNode":"09f3963462df1415","toSide":"left"},
+		{"id":"f33469db4b032e13","fromNode":"3e61c59c23cac88a","fromSide":"bottom","toNode":"201b5c7a6e4860ed","toSide":"top"},
+		{"id":"579825eadb184896","fromNode":"201b5c7a6e4860ed","fromSide":"bottom","toNode":"fd2b226ccdcd752b","toSide":"top"},
+		{"id":"373c3ee58a70ce5a","fromNode":"5d1482b6fc0ebc52","fromSide":"left","toNode":"fd2b226ccdcd752b","toSide":"right"},
+		{"id":"14f69d75ea03ca03","fromNode":"c8978fff560f4c0a","fromSide":"bottom","toNode":"0eab2eb863326672","toSide":"top"},
+		{"id":"34feb01dc635728d","fromNode":"0eab2eb863326672","fromSide":"bottom","toNode":"3101861e03691986","toSide":"top"},
+		{"id":"7afe01205ce5bd56","fromNode":"3e61c59c23cac88a","fromSide":"bottom","toNode":"99e42699a97b88ec","toSide":"top"},
+		{"id":"5152b8073ac6280b","fromNode":"e1d8e7cde3017166","fromSide":"bottom","toNode":"5f3b30534b307a6a","toSide":"top"},
+		{"id":"53329bc57cb98c22","fromNode":"a2f771ea122569d1","fromSide":"bottom","toNode":"e1d8e7cde3017166","toSide":"top"}
 	]
 }
